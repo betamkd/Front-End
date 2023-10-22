@@ -1,0 +1,35 @@
+h1 {
+  font-size: 80px;
+  color: #1aa96ae0;
+}
+
+p {
+  color: aqua;
+}
+
+#main-header {
+  color: blueviolet;
+}
+
+#contact {
+  color: #000;
+}
+
+.bold-text {
+  font-weight: bold;
+  color: aqua;
+}
+
+.contact-info {
+  font-size: 18px;
+}
+
+.bird {
+  color: blue;
+}
+.insect {
+  color: green;
+}
+.flying {
+  text-decoration: underline;
+}

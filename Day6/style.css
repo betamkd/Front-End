@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #d6e2f0;
+}
+
+.parent {
+  width: 500px;
+  height: 100vh;
+  border: 1px solid red;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  background: red;
+  border-radius: 10%;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+.one {
+  order: 6;
+  flex: 1;
+  align-self: flex-end;
+}

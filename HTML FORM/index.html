@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      button {
+        background: rebeccapurple;
+        color: antiquewhite;
+      }
+      button:disabled {
+        background: rgb(122, 105, 139);
+        color: antiquewhite;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="fname" size="5" maxlength="5" />
+      <br />
+      <input type="email" />
+      <br />
+      <br />
+      <input type="number" />
+      <br />
+      <br />
+      <input type="button" onclick="alert('Hello')" value="Click me" />
+      <button type="button" onclick="alert('Hello')">Click me 2</button>
+      <br />
+      <br />
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="bike" />
+      <label for="vehicle1">I have a bike</label>
+      <br />
+      <br />
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="car" />
+      <label for="vehicle2">I have a car</label>
+      <br />
+      <br />
+      <input type="color" name="favcolor" id="favcolor" />
+      <br />
+      <br />
+      <input type="date" name="birthday" if="birthday" />
+      <br />
+      <br />
+      <input type="datetime-local" name="birthday" id="birthday" />
+      <br />
+      <br />
+      <input type="file" name="myfile" id="myfile" />
+      <br />
+      <br />
+      <input type="hidden" name="selectProducts" value="" />
+      <br />
+      <br />
+      <input type="range" id="vol" name="vol" min="0" max="50" step="10" />
+      <br />
+      <br />
+      <input type="search" id="vol" name="vol" min="0" max="50" />
+      <br />
+      <br />
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        pattern="[+389][7][5-2-1]-[0-9]{}"
+      />
+      <br />
+      <br />
+      <input
+        type="time"
+        id="appt"
+        name="appt"
+        pattern="[+389][7][5-2-1]-[0-9]{}"
+      />
+      <br />
+      <br />
+      <input type="url" id="homepage" name="homepage" />
+      <br />
+      <br />
+      <input type="password" id="password" name="password" />
+      <br />
+      <br />
+      <input type="submit" />
+      <br />
+      <br />
+      <label><input type="radio" name="student" value="yes" />yes</label>
+      <label><input type="radio" name="student" value="no" />no</label>
+      <br />
+      <br />
+      <label for="city">Select a city</label>
+      <select name="cityDropdown" id="city">
+        <option pre-selected disabled>Please select a city</option>
+        <optgroup label="UK cities">
+          <option value="London">London</option>
+          <option value="Manchester">Mancherster</option>
+          <option value="Liverpool">Liverpool</option>
+        </optgroup>
+
+        <optgroup label="German cities">
+          <option value="Berlin">London</option>
+          <option value="Hamburg">Mancherster</option>
+          <option value="Munich">Liverpool</option>
+        </optgroup>
+      </select>
+      <br />
+      <br />
+      <textarea name="textinput" id="textinput" cols="30" rows="30"></textarea>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Person Info</legend>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" value="John" />
+        <br />
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Last Name" />
+        <input type="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>

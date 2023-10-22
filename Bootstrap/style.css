@@ -1,0 +1,20 @@
+:root {
+  --white: #ffff;
+  --primary: #151515;
+  --border: 1px solid red;
+  --bs-padding: 10px;
+}
+
+.body {
+  color: var(--white);
+  padding-left:(-bs-padding);
+}
+
+.container{
+  background: brown;
+  height: 500px;
+}
+
+.col{
+  border: 1px solid white;
+}

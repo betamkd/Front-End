@@ -1,0 +1,24 @@
+h1 {
+  color: red;
+}
+
+.female {
+  color: blue;
+}
+
+.male {
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#pride-prejudice {
+  list-style-type: upper-roman;
+  list-style-position: inside;
+}
+
+#great-gatsby {
+  list-style-type: lower-alpha;
+}

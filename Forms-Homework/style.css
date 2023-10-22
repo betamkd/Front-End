@@ -1,0 +1,48 @@
+.image-photo {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.personal-data {
+  color:white;
+  display: grid;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  background-color: burlywood;
+  padding: 30px 100px;
+  margin-left: 450px;
+  margin-right: 450px;
+  margin-top: -1px;
+  
+}
+
+fieldset {
+  border: 0;
+}
+
+input {
+  background-color: rgb(195, 176, 140);
+  padding: 10px 150px;
+  padding-left: 7px;
+  border-radius: 5px;
+}
+button {
+  background-color: rgb(72, 48, 4);
+  padding: 10px 130px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 2px;
+  color: burlywood;
+  font-size: large;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+
+.triangle-photo {
+  display: flex;
+  justify-content: center;
+}

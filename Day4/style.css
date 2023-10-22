@@ -1,0 +1,47 @@
+button {
+  width: Hug (136px);
+  height: Hug (40px);
+  top: 32px;
+  left: 32px;
+  padding: 12px 16px 12px 16px;
+  border-radius: 8px;
+  gap: 8px;
+  background-color: #2f6fed;
+  color: white;
+  font: SF Pro Text;
+}
+
+button1 {
+  width: Hug (136px);
+  height: Hug (40px);
+  top: 536px;
+  left: 32px;
+  padding: 12px 16px 12px 16px;
+  border-radius: 8px;
+  border: 1px;
+  gap: 8px;
+  background-color: linear-gradient(0deg, #f1f3f9, #f1f3f9),
+    linear-gradient(0deg, #23272f, #23272f);
+  color: #000;
+  border: 1px solid #23272f;
+  border-top: double;
+  border-bottom: double;
+  border-left: double;
+  border-right: double;
+}
+
+button2 {
+  width: Hug (102px);
+  height: Hug (32px);
+  top: 900px;
+  left: 280px;
+  padding: 10px 12px 10px 12px;
+  border-radius: 8px;
+  gap: 4px;
+  border-top: double;
+  border-bottom: double;
+  border-left: double;
+  border-right: double;
+  color: white;
+  background-color: #ba2532;
+}

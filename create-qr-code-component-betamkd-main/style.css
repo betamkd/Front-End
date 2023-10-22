@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #d6e2f0;
+}
+
+/* TODO: add same style as the design: body color, article color, font-family, font size, text decoration */
+
+main {
+  height: 260vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.gr-code-component {
+  width: 222px;
+  height: 400px;
+  background: #fff;
+  padding: 20px;
+  border: 2px red solid;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gr-code-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  /* width: 200px;
+  padding-bottom: 8px; */
+  width: 200px;
+  padding-bottom: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+[href*=".com"] {
+  color: orange;
+}
+
+[data-type*] {
+  background: red;
+}
+
+.main-heading::first-letter {
+  color: rgba(128, 44, 120, 0.593);
+}
+
+article {
+  width: 320px;
+  background: rgb(212, 26, 26);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+a::before {
+  content: ">";
+}
+
+button {
+  background-color: aquamarine;
+  border: none;
+  padding: 18px 36px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: rgb(94, 135, 122);
+}
+
+span {
+  color: red;
+  display: block;
+}
